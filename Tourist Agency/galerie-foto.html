@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Galerie foto - Travel Boutique</title>
+<link href="images/favicon.png" rel="icon" type="image/png">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="page">
+    <div class="header">
+        <div class="container">
+            <div class="logo"><img src="images/logo.png" width="260" height="80"  alt=""/></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Prima pagina</a></li>
+                    <li><a href="excursii.html">Excursii</a>
+                        <ul>
+                            <li><a href="croaziere.html">Croaziere</a></li>
+                            <li><a href="oferte-speciale.html">Oferte speciale</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="galerie-foto.html">Galerie foto</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="main">
+        <h1>Galerie foto</h1>
+        <div class="filters">
+        	Filtre:
+            <a href="#" class="selected">Toate</a>
+            <a href="#">Australia</a>
+            <a href="#">Europa</a>
+            <a href="#">Orientul Mijlociu</a>
+        </div>
+        <div class="image"> <a href="images/g-amsterdam.jpg"><img src="images/g-amsterdam-thumb.jpg" alt="Excursie Amsterdam" width="230" height="150" class="frame"/></a>
+          <p>Amsterdam</p>
+        </div>
+        <div class="image"> <a href="images/g-athens.jpg"><img src="images/g-athens-thumb.jpg" alt="Excursie Atena" width="230" height="150" class="frame"/></a>
+          <p>Atena</p>
+        </div>
+        <div class="image last"> <a href="images/g-budapest.jpg"><img src="images/g-budapest-thumb.jpg" alt="Excursie Budapesta" width="230" height="150" class="frame"/></a>
+          <p>Budapesta</p>
+        </div>
+        <div class="clear"></div>
+        <div class="image"> <a href="images/g-dubai.jpg"><img src="images/g-dubai-thumb.jpg" alt="Excursie Dubai" width="230" height="150" class="frame"/></a>
+          <p>Dubai</p>
+        </div>
+        <div class="image"> <a href="images/g-dubrovnik.jpg"><img src="images/g-dubrovnik-thumb.jpg" alt="Excursie Dubrovnic" width="230" height="150" class="frame"/></a>
+          <p>Dubrovnic</p>
+        </div>
+        <div class="image last"> <a href="images/g-prague.jpg"><img src="images/g-prague-thumb.jpg" alt="Excursie Praga" width="230" height="150" class="frame"/></a>
+          <p>Praga</p>
+        </div>
+        <div class="clear"></div>
+        <div class="image"> <a href="images/g-sydney.jpg"><img src="images/g-sydney-thumb.jpg" alt="Excursie Sydney" width="230" height="150" class="frame"/></a>
+          <p>Sydney</p>
+        </div>
+      </div>
+      <div class="sidebar">
+        <form action="contact.html" method="post" id="form1" >
+		        <h1>Gasiti excursia perfecta</h1>
+            <p class="select-full">
+              <select name="destinatie" id="destinatie">
+                <option>(Selectati destinatia)</option>
+                <option value="austria">Ski Austria</option>
+                <option value="praga">City Break Praga</option>
+                <option value="disneyland">Disneyland Paris</option>
+                <option value="dubai">Shopping Dubai</option>
+                <option value="londra">City Break Londra</option>
+                <option value="antalya">Sejur Antalya</option>
+                <option value="egipt">Circuit Egipt</option>
+              </select>
+            </p>
+            <p class="select-full">
+              <label for="luna_plecare">Plecare:</label>
+              <select name="luna_plecare" id="luna_plecare">
+                <option>(Luna)</option>
+                <option value="01">Ianuarie</option>
+                <option value="02">Februarie</option>
+                <option value="03">Martie</option>
+                <option value="04">Aprilie</option>
+                <option value="05">Mai</option>
+                <option value="06">Iunie</option>
+                <option value="07">Iulie</option>
+                <option value="08">August</option>
+                <option value="09">Septembrie</option>
+                <option value="10">Octombrie</option>
+                <option value="11">Noiembrie</option>
+                <option value="12">Decembrie</option>
+              </select>
+              <select name="zi_plecare" id="zi_plecare">
+                <option>(Ziua)</option>
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="04">4</option>
+                <option value="05">5</option>
+                <option value="06">6</option>
+                <option value="07">7</option>
+                <option value="08">8</option>
+                <option value="09">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </p>
+            <p class="select-full">
+              <label for="luna_intoarcere">Intoarcere:</label>
+              <select name="luna_intoarcere" id="luna_intoarcere">
+                <option>(Luna)</option>
+                <option value="01">Ianuarie</option>
+                <option value="02">Februarie</option>
+                <option value="03">Martie</option>
+                <option value="04">Aprilie</option>
+                <option value="05">Mai</option>
+                <option value="06">Iunie</option>
+                <option value="07">Iulie</option>
+                <option value="08">August</option>
+                <option value="09">Septembrie</option>
+                <option value="10">Octombrie</option>
+                <option value="11">Noiembrie</option>
+                <option value="12">Decembrie</option>
+              </select>
+              <select name="zi_intoarcere" id="zi_intoarcere">
+                <option>(Ziua)</option>
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="04">4</option>
+                <option value="05">5</option>
+                <option value="06">6</option>
+                <option value="07">7</option>
+                <option value="08">8</option>
+                <option value="09">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </p>
+            <p>
+              <input type="submit" name="cauta" id="cauta" value="Cauta">
+            </p>
+        </form>
+        <img src="images/sb-amsterdam.jpg" alt="Excursie Amsterdam" class="frame">
+      </div>
+    </div>
+    <div class="push"></div>
+</div>
+<div class="footer">
+	<div class="container">
+    	&copy; 2016 - Travel Boutique
+    </div>
+</div>
+<div class="social">
+	<a href="http://facebook.com" target="_blank" title="Urmareste-ne pe Facebook!" id="facebook">Facebook</a>
+    <a href="http://twitter.com" target="_blank" title="Urmareste-ne pe Twitter!" id="twitter">Twitter</a>
+    <a href="http://plus.google.com" target="_blank" title="Urmareste-ne pe Google+!" id="google">Google+#</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Excursii - Travel Boutique</title>
+<link href="images/favicon.png" rel="icon" type="image/png">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="page">
+    <div class="header">
+        <div class="container">
+            <div class="logo"><img src="images/logo.png" width="260" height="80"  alt=""/></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Prima pagina</a></li>
+                    <li class="active"><a href="excursii.html">Excursii</a>
+                        <ul>
+                            <li><a href="croaziere.html">Croaziere</a></li>
+                            <li><a href="oferte-speciale.html">Oferte speciale</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galerie-foto.html">Galerie foto</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="main">
+        <div class="ex-photo"><img src="images/ex-egypt.jpg" alt="Excursie Egipt - Piramidele si sfinxul" width="270" height="179" class="frame"/></div>
+        <div class="ex-text">
+            <h1>Piramidele si sfinxul</h1>
+            <ul>
+              <li class="destinatie">Destinatia: Egipt</li>
+              <li class="durata">Durata: 7 zile</li>
+              <li class="pret">Pret: 400€</li>
+            </ul>
+            <p>Pachetul include transportul cu avionul pana in Cairo si retur, cazarea in hotel 3* in Cairo pentru 6 nopti cu mic dejun inclus, transport autocar Cairo - Giza - retur, vizita oras Cairo cu ghid. </p>
+            <p><a href="contact.html" title="Rezerva acum!" class="rezervare">Rezervare</a></p>
+        </div>
+        <div class="ex-photo"><img src="images/ex-new-york.jpg" alt="Excursie New York, Washington, Coasta de Est" width="270" height="192" class="frame"/></div>
+        <div class="ex-text">
+            <h1>New York, Washington, Coasta de Est</h1>
+            <ul>
+              <li class="destinatie">Destinatia: S.U.A.</li>
+              <li class="durata">Durata: 9 zile</li>
+              <li class="pret">Pret: 950&#8364;</li>
+          </ul>
+            <p>Pachetul include transportul cu avionul pana in New York, cazare 4 nopti in New York in hotel 3*, transport insula libertatii, transport autocar New York - Atlantic City, cazare 1 noapte Atlantic City in hotel 3*, transport autocar Atlantic City - Washington DC, cazare 3 nopti in Washington DC in hotel 3*, zbor cu avionul Washington DC - Bucuresti.</p>
+            <p><a href="contact.html" title="Rezerva acum!" class="rezervare">Rezervare</a></p>
+        </div>
+        <div class="ex-photo"><img src="images/ex-london.jpg" alt="Excursie city break Londra" width="270" height="172" class="frame"/></div>
+        <div class="ex-text">
+          <h1>City break Londra</h1>
+            <ul>
+              <li class="destinatie">Destinatia: Londra</li>
+              <li class="durata">Durata: 3 zile</li>
+              <li class="pret">Pret: 175&#8364;</li>
+          </ul>
+            <p>Pachetul include transportul cu avionul pana la Londra si retur, cazarea in hotel 3* pentru 2 nopti cu mic dejun inclus.</p>
+            <p><a href="contact.html" title="Rezerva acum!" class="rezervare">Rezervare</a></p>
+        </div>
+      </div>
+      <div class="sidebar">
+        <form action="contact.html" method="post" id="form1" >
+		        <h1>Gasiti excursia perfecta</h1>
+            <p class="select-full">
+              <select name="destinatie" id="destinatie">
+                <option>(Selectati destinatia)</option>
+                <option value="austria">Ski Austria</option>
+                <option value="praga">City Break Praga</option>
+                <option value="disneyland">Disneyland Paris</option>
+                <option value="dubai">Shopping Dubai</option>
+                <option value="londra">City Break Londra</option>
+                <option value="antalya">Sejur Antalya</option>
+                <option value="egipt">Circuit Egipt</option>
+              </select>
+            </p>
+            <p class="select-full">
+              <label for="luna_plecare">Plecare:</label>
+              <select name="luna_plecare" id="luna_plecare">
+                <option>(Luna)</option>
+                <option value="01">Ianuarie</option>
+                <option value="02">Februarie</option>
+                <option value="03">Martie</option>
+                <option value="04">Aprilie</option>
+                <option value="05">Mai</option>
+                <option value="06">Iunie</option>
+                <option value="07">Iulie</option>
+                <option value="08">August</option>
+                <option value="09">Septembrie</option>
+                <option value="10">Octombrie</option>
+                <option value="11">Noiembrie</option>
+                <option value="12">Decembrie</option>
+              </select>
+              <select name="zi_plecare" id="zi_plecare">
+                <option>(Ziua)</option>
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="04">4</option>
+                <option value="05">5</option>
+                <option value="06">6</option>
+                <option value="07">7</option>
+                <option value="08">8</option>
+                <option value="09">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </p>
+            <p class="select-full">
+              <label for="luna_intoarcere">Intoarcere:</label>
+              <select name="luna_intoarcere" id="luna_intoarcere">
+                <option>(Luna)</option>
+                <option value="01">Ianuarie</option>
+                <option value="02">Februarie</option>
+                <option value="03">Martie</option>
+                <option value="04">Aprilie</option>
+                <option value="05">Mai</option>
+                <option value="06">Iunie</option>
+                <option value="07">Iulie</option>
+                <option value="08">August</option>
+                <option value="09">Septembrie</option>
+                <option value="10">Octombrie</option>
+                <option value="11">Noiembrie</option>
+                <option value="12">Decembrie</option>
+              </select>
+              <select name="zi_intoarcere" id="zi_intoarcere">
+                <option>(Ziua)</option>
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="04">4</option>
+                <option value="05">5</option>
+                <option value="06">6</option>
+                <option value="07">7</option>
+                <option value="08">8</option>
+                <option value="09">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </p>
+            <p>
+              <input type="submit" name="cauta" id="cauta" value="Cauta">
+            </p>
+        </form>
+        <img src="images/sb-amsterdam.jpg" alt="Excursie Amsterdam" class="frame">
+      </div>
+    </div>
+	<div class="push"></div>
+</div>
+<div class="footer">
+	<div class="container">
+    	&copy; 2016 - Travel Boutique
+    </div>
+</div>
+<div class="social">
+	<a href="http://facebook.com" target="_blank" title="Urmareste-ne pe Facebook!" id="facebook">Facebook</a>
+  <a href="http://twitter.com" target="_blank" title="Urmareste-ne pe Twitter!" id="twitter">Twitter</a>
+  <a href="http://plus.google.com" target="_blank" title="Urmareste-ne pe Google+!" id="google">Google+#</a>
+</div>
+</body>
+</html>
